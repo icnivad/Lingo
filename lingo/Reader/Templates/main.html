@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}
+Lingo
+{% endblock %}
+{% block content %}
+<p>Learn to read French.</p>
+<div class="row">
+<iframe id="web_reader" name="web_reader" width="1000" height="1200" src="http://127.0.0.1:8000/lingo/proxy?mediate_uri=http%3A%2F%2Fwww.lemonde.fr"></iframe>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+#page {
+	margin-top:30px;
+}
+
+/*Let's make the topbar not be fixed cause that's annoying me*/
+.topbar {
+	position:relative;
+}
